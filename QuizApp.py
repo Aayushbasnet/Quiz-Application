@@ -45,13 +45,14 @@ def login():
             if users[username][0] !=password:
                 print("Invalid Password")
             elif users[username][0] == password:
-                print("Logged In Successfully")
+                print(f"Logged In Successfully as {users[username][1]}")
                 user.append(username)
                 user.append(users[username][1])
 
 
 def play_game():
-    print("<<<Welcome to my first quiz game\n>>>")
+    print("<<<Welcome to my first quiz game>>>")
+    print("You will be attempting 5 questions")
 
     score = 0
     with open("quizquestest.json", 'r+') as play:
@@ -69,8 +70,8 @@ def play_game():
             else:
                 print("Your answer is incorrect\n")
                 del[ch]
-        print("<<<<<<<<<<Game Over>>>>>>>>>>\n")
-        print(f" Your final score : {score}")
+        print("<<<<<<<<<<Game Over>>>>>>>>>>")
+        print(f" Your final score : {score}\n")
 
 
 def logout():
@@ -105,7 +106,7 @@ def signup():
 if __name__ == '__main__':
     choice = 1
     while choice !=6:
-        print("<<<<<<< Menu >>>>>>>")
+        print("\n<<<<<<< Quiz Menu >>>>>>>")
         print(" 1) Play\n",
               "2) Login\n",
               "3) Logout\n",
