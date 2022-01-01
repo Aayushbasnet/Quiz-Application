@@ -19,8 +19,8 @@ Learn More: https://www.python.org/doc/
 <img src="Screenshots/5.PNG"  height="450"> 
 <img src="Screenshots/6.PNG" height="450">
 <img  src="Screenshots/7.PNG" height="450">
- <img src="Screenshots/8.PNG"  height="450"> 
- <img src="Screenshots/9.PNG" height="450">
+<img src="Screenshots/8.PNG"  height="450"> 
+<img src="Screenshots/9.PNG" height="450">
 <img  src="Screenshots/10.PNG"  height="450">
 <img src="Screenshots/11.PNG" height="450"> 
 
